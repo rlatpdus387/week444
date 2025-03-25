@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>설문 조사</title>
+</head>
+
+<body>
+<h1>설문지</h1>
+<br>
+<hr>
+<h3>설문 조사</h3>
+
+<form>
+    <label> 학년: </label>
+    <label>
+    <input type="radio" name="gkrsus" value="1">
+          1학년
+    <input type="radio" name="gkrsus" value="2"checked>
+          2학년
+    <input type="radio" name="gkrsus" value="3">
+          3학년
+    </label>
+</form>
+
+<form>
+    <label> 성별: </label>
+    <label>
+    <input type="radio" name="tjdquf" value="1">
+           여자
+    <input type="radio" name="tjdquf" value="2" checked>
+           남자
+    </label>
+</form>
+
+<label> 이름: <input type="text"> </label>
+<br>
+<label> 학과: </label>
+<select name="gkrrhk">
+    <option value="1"> 컴퓨터공학과 </option>
+    <option value="2" selected> 유아교육과 </option>
+    <option value="3"> 토목공학과 </option>
+</select>
+
+<form>
+    <label> 진로: </label>
+    취업<input type="checkbox" value="1">
+    전공심화<input type="checkbox" value="2" checked>
+    편입<input type="checkbox" value="3">
+</form>
+
+<form>
+    <label> 남기고 싶은 말 </label>
+    <br>
+    <textarea cols="50" rows="10" placeholder="글을 남겨 주세요"></textarea>
+
+</form>
+</body>
+</html>
